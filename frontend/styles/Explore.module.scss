@@ -1,0 +1,31 @@
+.problemContainer {
+    display: block;
+    margin: auto;
+    margin-top: 1%;
+    width: 90%;
+    border: 2px solid black;
+    padding: 5px;
+
+    .row {
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 1px solid black;
+        padding: 2px;
+
+        .id {
+            width: 8%;
+        }
+        .link {
+            width: 5%;
+        }
+        .solvedCount {
+            width: 7%;
+        }
+        .rating {
+            width: 6%;
+        }
+        .tags {
+            width: 74%;
+        }
+    }
+}
