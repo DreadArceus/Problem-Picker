@@ -14,6 +14,14 @@ export type cfData = {
   }[];
 };
 
+export type Submission = {
+  verdict: string;
+  problem: {
+    contestId: number;
+    index: string;
+  };
+};
+
 export type Problem = {
   contestId: number;
   index: string;
